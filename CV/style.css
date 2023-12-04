@@ -1,0 +1,127 @@
+@media(min-width: 1025px){}
+@media(max-width: 320px){}
+@media(max-width: 480px){}
+@media(max-width: 600px){}
+body{
+    background-color: plum;
+}
+#container{
+    margin: auto;
+    padding: auto;
+    display:flex;
+    width: 1450px;
+    align-self: center;
+}
+
+#photo{
+    text-align: center;
+}
+#photo img{
+    padding: 3%;
+    padding-bottom: 20px;
+    border-radius:50%;
+    border: solid;
+
+}
+#sidebar{
+    flex-basis: 40%;
+    background-color: rgb(250, 250, 246);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2%;
+}
+#sidebar ul{
+   
+    color: rgb(24, 25, 21);
+    text-decoration: none;
+    list-style: none;
+}
+#sidebar ul li{
+    font-size: 30px;
+    padding-top: 2%;
+}
+#sidebar ul #bar{
+    background-color: white;
+    width: 480px;
+    height: 10px;
+    border-radius: 20px 20px;
+    float: left;
+}
+#sidebar ul #bar2{
+    background-color:rgb(206, 23, 206);
+    width: 380px;
+    height: 10px;
+    border-radius: 20px 20px;
+    position: absolute;
+    float:left;
+}
+#sidebar ul #bar3{
+    background-color: white;
+    width: 480px;
+    height: 10px;
+    border-radius: 20px 20px;
+    float: left;
+}
+#sidebar ul #bar4{
+    background-color:rgb(206, 23, 206);
+    width: 180px;
+    height: 10px;
+    border-radius: 20px 20px;
+    position: absolute;
+    float:left;
+}
+#sidebar ul #bar5{
+    background-color: white;
+    width: 480px;
+    height: 10px;
+    border-radius: 20px 20px;
+    float: left;
+}
+#sidebar ul #bar6{
+    background-color:rgb(206, 23, 206);
+    width: 300px;
+    height: 10px;
+    border-radius: 20px 20px;
+    position: absolute;
+    float:left;
+}
+#sidebar ul #bar7{
+    background-color: white;
+    width: 480px;
+    height: 10px;
+    border-radius: 20px 20px;
+    float: left;
+}
+#sidebar ul #bar8{
+    background-color:rgb(206, 23, 206);
+    width: 380px;
+    height: 10px;
+    border-radius: 20px 20px;
+    position: absolute;
+    float:left;
+}
+#main-content{
+    flex-basis: 60%;
+    display: block;
+    padding: 2%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#main-content h1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h2 {
+    font-size: 1.5rem;
+    overflow: hidden;
+  }
+  
+  h2:after {
+    content: "";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 2px solid rgb(120, 91, 91);
+  }

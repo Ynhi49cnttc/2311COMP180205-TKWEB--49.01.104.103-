@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <style>   
+            body {
+                background-image: url(./images/bg1.png);
+                background-repeat: no-repeat;
+                background-attachment: fixed; 
+                background-size: 100% 100%;
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Halloween</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./thanhvien.html" target=”_blank”>Thành viên nhóm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./album.html" target=”_blank”>Bộ sưu tập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./his.html" target=”_blank”>Lịch sử</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tham gia
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./joinform.html" target=”_blank”>Đăng ký</a></li>
+                            <li><a class="dropdown-item" href="./contact.html" target=”_blank”>Khác</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                        <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
+                        </form>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+            
+            <div class="main">
+                <div class="row">
+                    <div class="row align-items-start">
+                        <div class="col-6">
+                          <img src="./images/tc1.png">
+                        </div>
+                        <div class="col-6">
+                            <img src="./images/tc2.png">
+                        </div>
+                </div> 
+                <div class="row">
+                    <div class="col align-self-end">   
+                        <!-- <audio controls >
+                            <source src="./images/music.mp3" type="audio/ogg">
+                        </audio>  -->
+                        <audio controls autoplay style="position: absolute; right: 0;">
+                            <source src="images/music.mp3" 
+                            type="audio/mpeg"></audio>
+                    </div> 
+                </div>  
+                
+                
+            </div> 
+           
+        </div>
+        
+    </body>
+</html>
